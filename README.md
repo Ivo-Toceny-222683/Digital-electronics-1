@@ -1,7 +1,7 @@
 # Digital-electronics-1
 ## Prvý odstavec
-ffffffffffffffffff
-ffffffffffffff
+..*ffffffffffffffffff
+..*ffffffffffffff
 ## Druhý odstavec
 ffffffffff
 fffffff
