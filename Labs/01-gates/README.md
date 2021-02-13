@@ -2,13 +2,13 @@
 
 ## 1. part - Link to GitHub repository
 
-[My GitHub repository](https://git-scm.com/)
+[My GitHub repository](https://github.com/Ivo-Toceny-222683/Digital-electronics-1)
 
 ## 2. part - Verification of De Morgan's Laws
 
-![Screenshot of equations from equation maker](Rovnica.jpg)
+![Screenshot of equations from equation maker](images/Rovnica.jpg)
 
-'''
+```
 ------------------------------------------------------------------------
 -- Architecture body for basic gates
 ------------------------------------------------------------------------
@@ -22,7 +22,7 @@ begin
     fnor_o <= not(b_i or (not a_i)) or not(c_i or b_i);
 
 end architecture dataflow;
-'''
+```
 
 ### Table of function values of set variables
 | **c** | **b** |**a** | **f(c,b,a)** |
