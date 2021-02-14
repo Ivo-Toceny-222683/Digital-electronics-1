@@ -1,11 +1,9 @@
 # Digital-electronics-1
-## Prvý odstavec
-..*ffffffffffffffffff
-..*ffffffffffffff
-(https://www.google.com "Google's Homepage")
-## Druhý odstavec
-ffffffffff
-fffffff
-## Tretí odstavec
-ffffffffff
-fffffff
+
+## How to find everything inside this repositary
+
+### Labs
+- every folder inside Labs is 1 excercise, which has it's own Readme.md file and images
+
+### Cvičenia
+- not started yet
