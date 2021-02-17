@@ -17,6 +17,9 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-fb=a (SoP) = (nb1.nb0.na1.na0)+(b1.nb0.a1.na0)+(nb1.b0.na1.a0)+(b1.b0.a1.a0)
+fb=a (SoP) = (/b1./b0./a1./a0)+(b1.nb0.a1.na0)+(nb1.b0.na1.a0)+(b1.b0.a1.a0)
  
 fb<a (PoS) = (b1+b0+a1+a0)*(b1+nb0+a1+a0)*(b1+nb0+a1+na0)*(nb1+b0+a1+a0)*(nb1+b0+a1+na0)*(nb1+b0+na1+a0)*(nb1+nb0+a1+a0)*(nb1+nb0+a1+na0)*(nb1+nb0+na1+a0)*(nb1+nb0+na1+na0)
+
+fb>a (SoP minim) = (b1.na1)+(b1.b0.na0)+(b0.na1.na0)
+fb<a (PoS minim) = (nb1+a1)*(nb0+a1)*(a0+a1)*(nb1+nb0)*(nb1+a0) 
