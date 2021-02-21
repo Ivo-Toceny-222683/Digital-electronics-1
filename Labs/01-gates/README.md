@@ -10,7 +10,7 @@
 ![Screenshot of equations from equation maker](images/Rovnica.jpg)
 
 ### Source code from design.vhd of Architecture
-```
+```vhdl
 ------------------------------------------------------------------------
 -- Architecture body for basic gates
 ------------------------------------------------------------------------
