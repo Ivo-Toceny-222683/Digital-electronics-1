@@ -47,7 +47,7 @@ end architecture dataflow;
 ## 3. part - Verification of Distributive laws
 
 ### Source code from design.vhd of Architecture
-```
+```vhdl
 ------------------------------------------------------------------------
 -- Architecture body for basic gates
 ------------------------------------------------------------------------
