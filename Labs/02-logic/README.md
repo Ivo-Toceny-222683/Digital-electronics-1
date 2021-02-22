@@ -192,7 +192,7 @@ end architecture testbench;
 
 ### Screenshot of simulated waveforms from EDA
 
-![Waveforms](images/Waveform.png)
+![Waveform](images/WaveForm.png)
 
 ### Link to EDA playground of 4-bit comparator simulation
 
