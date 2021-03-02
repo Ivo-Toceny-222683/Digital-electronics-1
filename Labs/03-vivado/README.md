@@ -35,7 +35,7 @@ SW15|V10| 15|V11
 
 ### VHDL code of two-bit wide 4-to-1 multiplexer:
 
-'''vhdl
+```vhdl
 ------------------------------------------------------------------------
 -- Architecture body for 2-bit binary comparator
 ------------------------------------------------------------------------
@@ -47,11 +47,11 @@ begin
                d_i;
 
 end architecture Behavioral;
-'''
+```
 
 ### VHDL testbench:
 
-'''vhdl
+```vhdl
 --------------------------------------------------------------------
     -- Data generation process
     --------------------------------------------------------------------
@@ -82,7 +82,7 @@ begin
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-'''
+```
 
 ### Simulated waveforms:
 
