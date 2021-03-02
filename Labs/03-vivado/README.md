@@ -37,7 +37,7 @@ SW15|V10| 15|V11
 
 ```vhdl
 ------------------------------------------------------------------------
--- Architecture body for 2-bit binary comparator
+-- Architecture body for 2-bit wide 4-to-1 multiplexer
 ------------------------------------------------------------------------
 architecture Behavioral of mux_2bit_4to1 is
 begin
@@ -91,3 +91,34 @@ begin
 
 ## Vivado tutorial:
 
+### -> Create project, (press next if first time), project name, RTL project
+
+![create project](images/DE1_1.png)
+
+![first next](images/DE1_2.png)
+
+![project name](images/DE1_3.png)
+
+![RTL](images/DE1_4.png)
+
+### -> Add sources[design] (create file,set vhdl,file name, ok, next)
+
+![Sources](images/DE1_5.png)
+
+### -> (Optional, but can set now) Add constraints (create file, name, ok, next)
+
+![Constraints](images/DE1_9.png)
+
+### -> Add board (Nexys for this course)
+
+![Board](images/DE1_7.png)
+
+### Finish making project 
+
+![Finish](images/DE1_8.png)
+
+### Add simulation[same principle as design just add tb before name] (or constraints/design)
+
+![Adding](images/DE1_10.png)
+
+![Simulation](images/DE1_11.png)
