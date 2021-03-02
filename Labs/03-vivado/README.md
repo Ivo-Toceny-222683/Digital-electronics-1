@@ -113,11 +113,11 @@ begin
 
 ![Board](images/DE1_7.png)
 
-### Finish making project 
+### -> Finish making project 
 
 ![Finish](images/DE1_8.png)
 
-### Add simulation[same principle as design just add tb before name] (or constraints/design)
+### -> Add simulation[same principle as design just add tb before name] (or constraints/design)
 
 ![Adding](images/DE1_10.png)
 
