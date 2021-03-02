@@ -36,6 +36,9 @@ SW15|V10| 15|V11
 ### VHDL code of two-bit wide 4-to-1 multiplexer:
 
 '''vhdl
+------------------------------------------------------------------------
+-- Architecture body for 2-bit binary comparator
+------------------------------------------------------------------------
 architecture Behavioral of mux_2bit_4to1 is
 begin
     f_o  <=    a_i when (sel_i = "00") else
@@ -49,8 +52,11 @@ end architecture Behavioral;
 ### VHDL testbench:
 
 '''vhdl
-    p_stimulus : process
-    begin
+--------------------------------------------------------------------
+    -- Data generation process
+    --------------------------------------------------------------------
+p_stimulus : process
+begin
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
         
