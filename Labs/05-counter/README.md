@@ -4,7 +4,7 @@
 
 [My GitHub 05-counter repository](https://github.com/Ivo-Toceny-222683/Digital-electronics-1/tree/main/Labs/05-counter)
 
-## 1. part
+## 1. part - Preparation tasks
 
 ### Figure with connection of push buttons on Nexys A7 board
 
@@ -21,7 +21,7 @@
    | 500&nbsp;ms | 50 000 000 | `x"2FA_F080"` | `b"0010_1111_1010_1111_0000_1000_0000"` |
    | 1&nbsp;sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
 
-## 2. part
+## 2. part - Bidirectional counter
 
 ### VHDL code of the process p_cnt_up_down
 
@@ -103,3 +103,62 @@ p_cnt_up_down : process(clk)
 ### Screenshot with simulated time waveforms
 
 ![Waveforms_counter](images/Waveform_tb_cnt_up_down.png)
+
+![Waveforms_counter](images/Waveform_tb_cnt_up_down_2.png)
+
+## 3. part - Top level
+
+### VHDL code from source file top.vhd
+
+```vhdl
+--------------------------------------------------------------------
+    -- Instance (copy) of clock_enable entity
+    clk_en0 : entity work.clock_enable
+        generic map(
+            g_MAX   => 100000000
+        )
+        port map(
+            clk     => CLK100MHZ,
+            reset   => BTNC,  
+            ce_o    => s_en  
+        );
+
+    --------------------------------------------------------------------
+    -- Instance (copy) of cnt_up_down entity
+    bin_cnt0 : entity work.cnt_up_down
+        generic map(
+            g_CNT_WIDTH  => 4
+        )
+        port map(
+            clk          => CLK100MHZ,
+            reset        => BTNC,
+            en_i         => s_en,
+            cnt_up_i     => SW(0),
+            cnt_o        => s_cnt
+        );
+
+    -- Display input value on LEDs
+    LED(3 downto 0) <= s_cnt;
+
+    --------------------------------------------------------------------
+    -- Instance (copy) of hex_7seg entity
+    hex2seg : entity work.hex_7seg
+        port map(
+            hex_i    => s_cnt,
+            seg_o(6) => CA,
+            seg_o(5) => CB,
+            seg_o(4) => CC,
+            seg_o(3) => CD,
+            seg_o(2) => CE,
+            seg_o(1) => CF,
+            seg_o(0) => CG
+        );
+```
+
+### Image of the top layer including both counters
+
+![Top_4bit](images/Top_4bit.png)
+
+![Top_16bit_led](images/Top_16bit_led.png)
+
+
