@@ -2,3 +2,6 @@ Running: xsim.dir/tb_d_latch_behav/xsimk.exe -simmode gui -wdb tb_d_latch_behav.
 Design successfully loaded
 Design Loading Memory Usage: 5816 KB (Peak: 5816 KB)
 Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6372 KB (Peak: 6372 KB)
+Simulation CPU Usage: 61 ms
