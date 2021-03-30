@@ -663,3 +663,4 @@ p_reset_gen : process
 
 ## 4. part - Shift register
 
+![T_ff_rst waveforms](images/Shift_register.png)
