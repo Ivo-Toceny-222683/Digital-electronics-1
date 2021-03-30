@@ -10,7 +10,7 @@
 
 ### VHDL code listing of the process p_d_latch
 
-```vhld
+```vhdl
  p_d_latch : process(en, arst, d)
     begin
         if(arst = '1') then
