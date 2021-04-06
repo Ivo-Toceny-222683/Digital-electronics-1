@@ -10,7 +10,7 @@
 
 | **Input P** | `0` | `0` | `1` | `1` | `0` | `1` | `0` | `1` | `1` | `1` | `1` | `0` | `0` | `1` | `1` | `1` |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **Clock** | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) |
+| **Clock** | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) | ![rising](images/arrow.webp) |
 | **State** | A | A | B | C | C | D | A | B | C | D | B | B | B | C | D | B |
 | **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `0` | `1` | `0` |
 
